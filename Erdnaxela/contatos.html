@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Erdnaxela Informática</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+        background-color: black;
+        color: rgb(254, 255, 255);
+        margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1><img src="Imagens\Erdnaxela logo.png" alt="Logotipo Erdnaxela"  width="50%" height="50%"></h1>    
+    <p>Soluções em Informática</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li class="active"><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1>
+    <b><center> Faça já seu orçamento</center></b>
+</h1>
+<p></p>
+<p></p>
+<p></p>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Segunda-Feira</th>
+        <th scope="col">Terça-Feira</th>
+        <th scope="col">Quarta-Feira</th>
+        <th scope="col">Quinta-Feira</th>
+        <th scope="col">Sexta-Feira</th>
+        <th scope="col">Sábado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Fechado</th>
+        <td>10:00 às 13:00</td>
+        <td>10:00 às 13:00</td>
+        <td>10:00 às 13:00</td>
+        <td>10:00 às 13:00</td>
+        <td>10:00 às 13:00</td>
+      </tr>
+      <tr>
+        <th scope="row">Fechado</th>
+        <td>14:00 às 18:00</td>
+        <td>14:00 às 18:00</td>
+        <td>14:00 às 18:00</td>
+        <td>14:00 às 18:00</td>
+        <td><b>Fechado</b></td>
+      </tr>
+      </tr>
+    </tbody>
+  </table>
+
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="https://www.trt4.jus.br/portais/media-noticia/304368/2020-04-15%20-%20whats%20site.png" alt="" width="5%"; height="5%">Telefone: (21) 96984-8202 
+    </div>
+      <p></p>
+      <div class="col">
+        <img src="https://cdn-icons-png.flaticon.com/512/16/16027.png" alt="" width="2%"; height="2%"> Endereço: Rua Manuel Serrão, 480 - Pião, São Gonçalo
+    </div>
+      <p></p>
+      <div class="col">
+        <img src="https://img.freepik.com/vetores-gratis/instagram-icone-novo_1057-2227.jpg" alt="" width="2%"; height="2%"> Instagram <a target="">www.instagram.com/erdnaxela.informatica</a>
+    </div>
+      <p></p>
+      <div class="col">
+        <img src="https://cdn-icons-png.flaticon.com/512/22/22597.png" alt="" width="3%"; height="3%"> Cep: 24455-025
+      </div>
+    </div>
+  </div>
+<p></p>
+<p></p>
+<footer class="container-fluid text-center">
+  <p>Loja Online Erdnaxela</p>  
+  <form class="form-inline" method="post" action="https://sheetdb.io/api/v1/5wicvyx9puwsu">Nossas ofertas:
+    <input type="email" class="form-control" name="data[email_cad]" size="50" placeholder="Endereço E-mail">
+    <button type="submit" class="btn btn-danger" onclick="Evento()">Inscrever</button>      
+    <script>
+        function Evento(){
+            alert('E-mail cadastrado')
+        }
+    </script>
+  </form>
+</footer>  
+  
+  </body>
+  </html>
